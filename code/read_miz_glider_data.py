@@ -9,7 +9,7 @@ from datetime import datetime
 from datetime import timedelta
 from scipy.interpolate import griddata
 
-pathMIZ = '/Users/marcel/Google Drive/Projects/Regional Comparison/Data/SG643/*.nc'
+pathMIZ = '/Users/marcel/Google Drive/Projects/buoyancy_flux_paper/data/SG643/*.nc'
 
 names = [
     'ctd_depth',

@@ -9,7 +9,7 @@ from datetime import datetime
 from datetime import timedelta
 from scipy.interpolate import griddata
 
-dat_apz = xr.open_dataset('/Users/Marcel/Google Drive/Projects/Regional Comparison/apz_slocum_processed_data.nc')
+dat_apz = xr.open_dataset('/Users/marcel/Google Drive/Projects/buoyancy_flux_paper/data/apz_slocum_processed_data.nc')
 
 x, spikes = gt.cleaning.despike(dat_apz.temperature, window_size=5)
 thres = np.nanstd(spikes)
