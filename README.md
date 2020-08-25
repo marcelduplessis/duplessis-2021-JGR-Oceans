@@ -5,7 +5,7 @@ To do:
 
 - Upload working glider processing code.
 - Figure 1. Map and overview.
-- Figure 2. 
+- Figure 2. Characterise seasonal cycle from EN4.2.1 observations.
 - Figure 3. 
 - Figure 4.
 - Figure 5.
