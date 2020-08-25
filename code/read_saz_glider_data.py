@@ -74,37 +74,3 @@ lon_saz = [lon_saz_grid[:,i][~np.isnan(time_saz_grid[:,i])][0].values for i in r
 lat_saz = [lat_saz_grid[:,i][~np.isnan(time_saz_grid[:,i])][0].values for i in range(len(time_saz_grid.T))]
 
 date_saz = [datetime.fromordinal(int(val)) + timedelta(days=val%1) for i, val in enumerate(time_saz)]
-
-# x, spikes=gt.cleaning.despike(s_saz_grid[15, :], window_size=5)
-# thres=np.nanstd(spikes)
-# spike_ind=(np.abs(spikes)>thres).values
-
-# salt_ml=s_saz_grid[15, :].copy()
-# temp_ml=t_saz_grid[15, :].copy()
-# dens_ml=d_saz_grid[15, :].copy()
-# buoy_ml=b_saz_grid[15, :].copy()
-
-# salt_ml[spike_ind]=np.NaN
-# temp_ml[spike_ind]=np.NaN
-# dens_ml[spike_ind]=np.NaN
-# buoy_ml[spike_ind]=np.NaN
-
-# N2_mean = np.nanmean(N2_saz[:150], axis=0)
-
-# x, spikes=gt.cleaning.despike(N2_mean, window_size=15)
-# thres=np.nanstd(spikes)
-# spike_ind=(np.abs(spikes)>thres/3)
-
-# N2_clean = N2_mean.copy()
-# N2_clean[spike_ind]=np.NaN
-
-# d = {'lon': lon_saz, 'lat': lat_saz, 'salt': salt_ml, 
-#      'temp': temp_ml, 'dens': dens_ml, 'buoy': buoy_ml, 'N2_mean_150m': N2_clean}
-
-# df_saz = pd.DataFrame(d, index=date_saz)
-# df_saz_ml = df_saz.interpolate()
-
-# dist_saz=np.zeros(len(df_saz_ml))
-# dist_saz[1:]=gsw.distance(df_saz_ml.lon, df_saz_ml.lat)
-
-# df_saz_ml['distance']=dist_saz
