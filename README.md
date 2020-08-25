@@ -9,9 +9,9 @@ To do:
 - Figure 3. 
 - Figure 4.
 - Figure 5.
-= Figure 6.
+- Figure 6.
 
 Order of processing:
 
 1. Run `read_saz_glider_data.py` and saved to netCDF
-2. Run `process_seaglider_data_L1.py` which does a despiking based on a rolling standard deviation.
+2. Run `process_seaglider_data_L1.py` which does a outlier despiking based on a 5-point rolling standard deviation.
