@@ -1,12 +1,20 @@
 # buoyancy_flux_paper
 All code and data linked to the buoyancy_flux manuscript here.
 
+Data used in this study:
+
+- Ocean glider data from ROAM-MIZ and SOSCEx.
+- EN4 data
+- Sailbuoy data from ROAM-MIZ
+- Thermosalinograph data from the S.A. Agulhas II
+- Wind, precipitation, evaporation, heat fluxes from ERA5, JRA55 and CFSv2.
+
 To do:
 
 - Upload working glider processing code.
 - Figure 1. Map and overview.
-- Figure 2. Characterise seasonal cycle from EN4.2.1 observations.
-- Figure 3. 
+- Figure 2. Characterise meridional upper ocean structure from EN4.2.1 observations.
+- Figure 3. Characterise 
 - Figure 4.
 - Figure 5.
 - Figure 6.
