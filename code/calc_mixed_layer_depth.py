@@ -20,7 +20,7 @@ def calc_mld(var, dpt, den_lim=0.03, ref_dpt=10):
 
         try:
             ref_dpt_ind = np.nanargmin(np.abs(dpt - ref_dpt))
-            rho_diff = np.abs(var[prof, ref_dpt_ind:500] - var[prof, ref_dpt_ind])
+            rho_diff = np.abs(var[prof, ref_dpt_ind:] - var[prof, ref_dpt_ind])
             x = rho_diff - den_lim
             x = np.squeeze(np.where(x > 0))[0]
             mld_ind = x + ref_dpt_ind

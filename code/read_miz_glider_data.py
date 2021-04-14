@@ -4,14 +4,16 @@ import matplotlib as plt
 import glidertools as gt
 import pandas as pd
 
-pathMIZ = '/Users/marcel/Google Drive/Projects/buoyancy_flux_paper/data/SG643/*.nc'
+pathMIZ = '/Users/marcel/Google Drive/Projects/buoyancy_flux_paper/data/gliders/SG643/*.nc'
 
 names = [
     'ctd_depth',
     'ctd_time',
     'ctd_pressure',
     'salinity_raw',
-    'temperature'
+    'temperature_raw',
+    'salinity_qc',
+    'temperature_qc'
 ]
 
 ds_dict = gt.load.seaglider_basestation_netCDFs(
@@ -22,6 +24,6 @@ ds_dict = gt.load.seaglider_basestation_netCDFs(
 
 dat_miz = ds_dict['ctd_data_point']
 
-dat_miz = dat_miz.rename({
-    'salinity_raw': 'salinity'
-})
+# dat_miz = dat_miz.rename({
+#     'salinity_raw': 'salinity'
+# })
