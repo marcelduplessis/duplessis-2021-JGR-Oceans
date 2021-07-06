@@ -14,7 +14,11 @@ The relevant folder is duPlessis_2021
 
 Load this data into the same folder as the repository, ensuring that the folder is named 'data'
 
-Order of processing:
+Description of jupyter notebooks and .py files:
 
-1. Run `read_saz_glider_data.py` and saved to netCDF
-2. Run `process_seaglider_data_L1.py` which does a outlier despiking based on a 5-point rolling standard deviation.
+`duplessis-2021-glider_processing.ipynb` to process the glider files from raw to processes
+`duplessis-2021-figure1.ipynb` for plotting of Figure 1.
+`process_tsg.py` processes the raw TSG data.
+`duplessis-2021-analysis-main.ipynb` is the analysis and plotting of main results, incl. Figs 2,4,5,6,7,8,9,10
+`duplessis-2021-argo_winter_analysis.ipynb`
+
