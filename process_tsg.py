@@ -1,6 +1,6 @@
 import pandas as pd
 
-tsg = pd.read_excel('/Users/marcel/Google Drive/Projects/buoyancy_flux_paper/data/agulhas_tsg/Agu035_odv.xlsx')
+tsg = pd.read_excel('../data/agulhas_tsg/Agu035_odv.xlsx')
 
 date = pd.to_datetime(tsg.Date+' '+tsg.Time)
 
