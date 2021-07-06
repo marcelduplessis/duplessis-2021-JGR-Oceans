@@ -1,23 +1,18 @@
-# buoyancy_flux_paper
-All code and data linked to the buoyancy_flux manuscript here.
+# duplessis-2021-thermohaline-variability
+Analysis followed by du Plessis et al - The daily-resolved Southern Ocean mixed layer: regional contrasts assessed using glider observations
 
-Data used in this study:
+At the moment, to implement the code here you need to clone this repository to your local machine.
+'git clone '
 
-- Ocean glider data from ROAM-MIZ and SOSCEx.
-- EN4 data
-- Sailbuoy data from ROAM-MIZ
-- Thermosalinograph data from the S.A. Agulhas II
-- Wind, precipitation, evaporation, heat fluxes from ERA5, JRA55 and CFSv2.
+The data can be accessed via ftp. In your terminal,
+ftp ssh.roammiz.com
+Name: anonymous
 
-To do:
+No password is required.
 
-- Upload working glider processing code.
-- Figure 1. Map and overview.
-- Figure 2. Characterise meridional upper ocean structure from EN4.2.1 observations.
-- Figure 3. Characterise 
-- Figure 4.
-- Figure 5.
-- Figure 6.
+The relevant folder is duPlessis_2021
+
+Load this data into the same folder as the repository, ensuring that the folder is named 'data'
 
 Order of processing:
 
