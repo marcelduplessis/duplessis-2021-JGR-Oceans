@@ -20,5 +20,5 @@ Description of jupyter notebooks and .py files:
 - `duplessis-2021-figure1.ipynb` for plotting of Figure 1.
 - `process_tsg.py` processes the raw TSG data.
 - `duplessis-2021-analysis-main.ipynb` is the analysis and plotting of main results, incl. Figs 2,4,5,6,7,8,9,10
-- `duplessis-2021-argo_winter_analysis.ipynb`
+- `duplessis-2021-argo_winter_analysis.ipynb` for plotting of under-ice argo float analysis
 
