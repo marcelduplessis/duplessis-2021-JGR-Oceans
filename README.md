@@ -1,8 +1,8 @@
-# duplessis-2021-thermohaline-variability
+# duplessis-2021-SO-thermohaline
 Analysis followed by du Plessis et al - The daily-resolved Southern Ocean mixed layer: regional contrasts assessed using glider observations
 
 At the moment, to implement the code here you need to clone this repository to your local machine.
-'git clone '
+'git clone https://github.com/marcelduplessis/duplessis-2021-SO-thermohaline.git'
 
 The data can be accessed via ftp. In your terminal,
 ftp ssh.roammiz.com
