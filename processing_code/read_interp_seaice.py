@@ -1,13 +1,18 @@
+import xarray as xr
+import numpy as np
+
 ### read in the data
 
-seaice = xr.open_mfdataset('/../data/seaice/AMSR2_daily/asi*.hdf',
-                            concat_dim='time', combine='nested')
+pathToFile = '/Volumes/GoogleDrive/My Drive/Projects/duplessis-2021-SO-thermohaline/data/seaice/AMSR2_daily/'
+
+seaice = xr.open_mfdataset(pathToFile+'asi*.hdf',
+                            concat_dim='time', combine='nested', engine='h5netcdf')
 
 
 ### do some reorganising to make life easier
 
 
-seaice_lnlt = xr.open_dataset('../data/seaice/AMSR2_daily/LongitudeLatitudeGrid-s6250-Antarctic.hdf')
+seaice_lnlt = xr.open_dataset(pathToFile+'LongitudeLatitudeGrid-s6250-Antarctic.hdf', engine='h5netcdf')
 
 seaice['time'] = (('time'), pd.date_range(start='2018-01-01', end='2019-03-31', freq='D'))
 
@@ -47,4 +52,5 @@ sic = xr.Dataset(data_vars={'sic' : (('time', 'lat', 'lon'), sic_new)},
                          'lat'  : Y, 
                          'lon'  : X})
 
-# sic.to_netcdf('../../data/seaice/sic_interp.nc')
+path = '/Volumes/GoogleDrive/My Drive/Projects/duplessis-2021-SO-thermohaline/data/seaice/'
+sic.to_netcdf(path+'sic_interp.nc')
