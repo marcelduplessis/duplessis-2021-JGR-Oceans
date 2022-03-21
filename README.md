@@ -1,24 +1,14 @@
 # duplessis-2021-SO-thermohaline
-Analysis followed by du Plessis et al - The daily-resolved Southern Ocean mixed layer: regional contrasts assessed using glider observations
+This repository contains the code the analysis and figure plotting of "The daily-resolved Southern Ocean mixed layer: regional contrasts assessed using glider observations" by du Plessis et al. (2022) JGR: Oceans
 
-At the moment, to implement the code here you need to clone this repository to your local machine.
-'git clone https://github.com/marcelduplessis/duplessis-2021-SO-thermohaline.git'
+Abstract:
 
-The data can be accessed via ftp. In your terminal,
-ftp ssh.roammiz.com
-Name: anonymous
+Water mass transformation in the Southern Ocean is vital for driving the large-scale overturning circulation, which transports heat from the surface to the ocean interior. Using profiling gliders, this study investigates the role of summertime buoyancy forcing and wind-driven processes on the intraseasonal (1-10 days) mixed layer thermohaline variability in three Southern Ocean regions southwest of Africa important for water mass transformation - the Subantarctic Zone (SAZ), Polar Frontal Zone (PFZ) and Marginal Ice Zone (MIZ). At intraseasonal time scales, heat flux was shown as the main driver of buoyancy gain in all regions. In the SAZ and MIZ, shallow mixed layers and strong stratification enhanced mixed layer buoyancy gain by trapping incoming heat, while buoyancy loss resulted primarily from the entrainment of cold, salty water from below. In the PFZ, rapid mixing linked to Southern Ocean storms set persistently deep mixed layers and suppressed mixed layer intraseasonal (1-10 days) thermohaline variability. In the polar regions, lateral stirring of meltwater from seasonal sea-ice melt dominated daily mixed layer salinity variability. We propose that these meltwater fronts are advected to the PFZ during late summer, indicating the potential for seasonal sea-ice freshwater to impact a region where the upwelling limb of overturning circulation reaches the surface. This study reveals a regional dependence of how the mixed layer thermohaline properties respond to small spatio-temporal processes, emphasizing the importance of surface forcing occurring between 1-10 days on the mixed layer water mass transformation in the Southern Ocean.
 
-No password is required.
+This code has been published. 
 
-The relevant folder is duPlessis_2021
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5076119.svg)](https://doi.org/10.5281/zenodo.5076119)
 
-Load this data into the same folder as the repository, ensuring that the folder is named 'data'
+**Data sources:** The data that accompanies the code can be found here: https://zenodo.org/record/5079763#.YjiIULjTX0p  
 
-Description of jupyter notebooks and .py files:
-
-- `duplessis-2021-glider_processing.ipynb` to process the glider files from raw to processes
-- `duplessis-2021-figure1.ipynb` for plotting of Figure 1.
-- `process_tsg.py` processes the raw TSG data.
-- `duplessis-2021-analysis-main.ipynb` is the analysis and plotting of main results, incl. Figs 2,4,5,6,7,8,9,10
-- `duplessis-2021-argo_winter_analysis.ipynb` for plotting of under-ice argo float analysis
 
