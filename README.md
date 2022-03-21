@@ -1,5 +1,5 @@
 # duplessis-2021-SO-thermohaline
-This repository contains the code the analysis and figure plotting of "The daily-resolved Southern Ocean mixed layer: regional contrasts assessed using glider observations" by du Plessis et al. (2022) JGR: Oceans
+This repository contains the code the analysis and figure plotting of *"The daily-resolved Southern Ocean mixed layer: regional contrasts assessed using glider observations" by du Plessis et al. (2022) JGR: Oceans*
 
 Abstract:
 
@@ -9,6 +9,6 @@ This code has been published.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5076119.svg)](https://doi.org/10.5281/zenodo.5076119)
 
-**Data sources:** The data that accompanies the code can be found here: https://zenodo.org/record/5079763#.YjiIULjTX0p  
+**Data sources:** The data that accompanies the code can be found here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5079763.svg)](https://doi.org/10.5281/zenodo.5079763)
 
 
